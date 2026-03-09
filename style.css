@@ -1,24 +1,16 @@
-button {
+.button {
     background-color: black;
+    color: white;
+    text-decoration: none;
     padding: 8px;
     border-radius: 8px;
     border: none;
 }
 
-button:hover {
+.button:hover {
     background-color: greenyellow;
-}
-
-button a {
-    color: white;
-    text-decoration: none;
-    padding: 8px;
-}
-
-button a:hover {
     color: black;
 }
-
 
 .dogs_info {
     display: flex;
